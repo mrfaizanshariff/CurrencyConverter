@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
     private  Button euro,dollar,pound,yen,dinar,bitcoin,aussy,canadian,rial;
     private double us_dollar,euro_val,pound_value,yen_value,dinar_value,bitcoin_val,aussy_val,can_val,rial_val;
     private RequestQueue requestQueue;
-    String url = "https://v6.exchangerate-api.com/v6/ad7df0226a29383fe0fa098a/latest/INR";
+    String url = "https://v6.exchangerate-api.com/v6/API_KEY/latest/INR";
 
 
     @Override
